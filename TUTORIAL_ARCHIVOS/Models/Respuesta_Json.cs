@@ -9,5 +9,6 @@ namespace TUTORIAL_ARCHIVOS.Models
     {
         public int Codigo { get; set; }
         public string Mensaje_Respuesta { get; set; }
+        public List<Dictionary<string, object>> Archivos { get; set; }
     }
 }
